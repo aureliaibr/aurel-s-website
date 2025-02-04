@@ -1,0 +1,99 @@
+body {
+    background-color: #E4D8DC;
+}
+
+h1{
+    color: #93B5C6;
+}
+
+header{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: beige;
+    border-radius: 40px 40px 0;
+    padding-bottom: 40px;
+}
+
+img {
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid #93B5C6;
+    box-shadow: 3px 3px 13px #121959;
+    margin-bottom: 15px;
+}
+
+img:hover {
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+
+header button{
+    padding: 8px 20px;
+    background-color: rgb(255, 224, 230);
+    border: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+header button:hover{
+    transform: scale(.9);
+    transition: all .4s ease-in-out;
+    background-color: cadetblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px #6a243b;
+}
+
+.about{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+}
+.left-about img{
+    width: 60%;
+    box-shadow: 2px 2px 10px grey;
+}
+.right-about h2{
+    color: darkmagenta;
+}
+.right-about {
+    margin: auto 0;
+}
+#products{
+    width: 95%;
+    text-align: center;
+    margin: 40px auto;
+}
+#products h2{
+    color: brown;
+}
+.cards{
+    border: 1px dashed #006bff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    width: 350px;
+    border: 1px solid orange;
+}
+.card img{
+    border-radius: 0;
+    width: 90%;
+    border: none;
+}
+.card h3{
+    color: #6a243b;
+}
+.card a button{
+    margin-bottom: 20px;
+    background-color: darkkhaki;
+    padding: 8px 25px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #ffc4d74e;
+}
